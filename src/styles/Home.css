@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    height: 10vh;
+    width: 80vw;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 2%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.club_content {
+    width: 80%;
+    text-align: center;
+    border: 1px solid #898989;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.club_meetings {
+    margin-right: 10px;
+    width: 100%;
+    border: 1px solid #898989;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cols {
+    width: 150%;
+    display: flex;
+    flex-direction: col;
+}
+
+.attendance_table_box {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #898989;
+    border-radius: 5%;
+}
+
+.practice_info {
+    padding: 20px;
+    margin: 10px;
+    height: 25vh;
+    border: 1px solid #898989;
+    border-radius: 5%;
+}
+
+.practice_attend {
+    padding: 20px;
+    margin: 10px;
+    height: 20vh;
+    border: 1px solid #898989;
+    border-radius: 5%;
+}
+
+.practice_boxes {
+    width: 80%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #898989;
+    border-radius: 5%;
+}

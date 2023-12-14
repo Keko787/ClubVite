@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.button_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/*
+    ID - 1
+    Year - 2020
+    club_id - 100
+    Member - Chris
+    Officer - true
+
+*/
+
+button {
+    margin: 5px;
+    width: 10vw;
+}
+
+.submit {
+    border: 1px solid #898989;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15%;
+    cursor: default;
+    text-decoration: none;
+}
+
+.submit:hover {
+    background-color: #a9a9a9;
+}
+
+.login_box {
+    margin-top: 10%;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #898989;
+    border-radius: 5%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    position: relative;
+}
+
+.input_row {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+input {
+    min-width: 20vw;
+    max-width: max-content;
+}
+
+span {
+    width: 25vw;
+    padding: 10px;
+}
