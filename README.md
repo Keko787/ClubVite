@@ -1,6 +1,18 @@
 # ClubVite
 Prototype of a website for FGCU clubs to track meetings and attendance
 
+Tech Stack:
+
+Front End: React.js, Bootstrap
+
+
+Back End: Node.js, Express.js
+
+
+Database: MySql2
+
+
+
 Images of the overall website.
 
 <img width="424" alt="image" src="https://github.com/Keko787/ClubVite/assets/73184531/fc22012d-1563-4170-a6e4-08126b35e1e7">
